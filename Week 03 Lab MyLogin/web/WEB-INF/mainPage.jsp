@@ -17,6 +17,4 @@
             Hello, ${user.username}<br><br>
             <a href="mainPage?logout=true">Log out</a>
         </div>
-
-    </body>
-</html>
+<c:import url="footer.html" />
