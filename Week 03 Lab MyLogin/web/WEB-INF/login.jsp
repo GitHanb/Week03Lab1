@@ -4,8 +4,8 @@
     Author     : 636334
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
-<c:import url="../includes/header.html" />
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:import url="/includes/header.html" />
         <h1>Login</h1>
         <div>
             <form action="login" method="post">
@@ -15,4 +15,4 @@
             </form>
              ${loginErrorMessage}
         </div>
-<c:import url="../includes/footer.html" />
+<c:import url="/includes/footer.html" />
